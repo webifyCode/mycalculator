@@ -16,7 +16,7 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/images/desktop-design-theme-1.jpg)
 
 ### Links
 
