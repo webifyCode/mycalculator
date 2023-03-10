@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="calculator.css">
+  <script src="jquery.min.js"></script>
+</head>
+<body>
+
+  <main>
+    <div class="container">
+
+      <div class="head">
+
+        <div class="icon">calc</div>
+
+        <div class="theme">
+
+          <div>THEME</div>
+
+          <div class="theme-toggler">
+
+            <div class="theme-number">
+              <span data-one>1</span>
+              <span data-two>2</span>
+              <span data-three>3</span>
+              
+            </div>
+
+            <div class="toggler">
+              <div class="selector">
+              </div>
+            </div>
+
+          </div>
+
+        </div><!--theme-end-->
+
+      </div><!--head-end-->
+
+      <div class="output">
+        <div data-previous-operand="" class="previousOperand"></div>
+        <div data-current-operand="" class="currentOperand"></div>
+      </div>
+
+      <div class="buttons">
+
+        <div class="small-buttons">
+
+          
+            <button data-number="" id="seven">7</button>
+            <button data-number="" id="eight">8</button>
+            <button data-number="" id="nine">9</button>
+            <button data-delete="" id="delete">DEL</button>
+          
+
+          
+            <button data-number="" id="four">4</button>
+            <button data-number="" id="five">5</button>
+            <button data-number="" id="six">6</button>
+            <button data-operation="" id="add">+</button>
+          
+
+          
+            <button data-number="" id="one">1</button>
+            <button data-number="" id="two">2</button>
+            <button data-number="" id="three">3</button>
+            <button data-operation="" id="subtract">-</button>
+          
+
+        
+            <button data-number="" id="point">.</button>
+            <button data-number="" id="zero">0</button>
+            <button data-operation="" id="divide">÷</button>
+            <button data-operation="" id="multiply">x</button>
+          
+
+        </div>
+
+        <div class="large-buttons">
+
+          
+            <button data-reset="" id="reset">RESET</button>
+            <button data-equals=""="" id="equals">=</button>
+          
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/5erious5am">Samuel Akinode</a>.
+  </div>
+
+  <script src="calculator.js"></script>
+  <script src="themes.js"></script>
+</body>
+</html>
