@@ -163,5 +163,7 @@ button[data-delete], button[data-reset] {
 #equals {
     color: white;
     font-size: 16px;
+    background: hsl(6, 63%, 50%);
+    box-shadow: 0px 3px hsl(6, 70%, 34%);
 }
 
