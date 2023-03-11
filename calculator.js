@@ -34,8 +34,8 @@ $(function() {
 //compute expression
     compute() {
       let computation;
-      const prev = parseFloat(this.previousOperand);
-      const current = parseFloat(this.currentOperand);
+      const prev = parseFloat(this.previousOperand),
+       current = parseFloat(this.currentOperand);
       if (isNaN(prev) || isNaN(current)) return;
       switch (this.operation) {
         case '+':
@@ -65,9 +65,9 @@ $(function() {
     }
     //add commas to appropriate numbers
     getDisplayNumber (number) {
-      const stringNumber = number.toString();
-      const integerDigits = parseFloat(stringNumber.split('.')[0]);
-      const decimalDigits = stringNumber.split('.')[1];
+      const stringNumber = number.toString(),
+        integerDigits = parseFloat(stringNumber.split('.')[0]),
+        decimalDigits = stringNumber.split('.')[1];
       let integerDisplay;
       if (isNaN(integerDigits)) {
         integerDisplay = '';
@@ -94,13 +94,13 @@ $(function() {
     }
   }
 
-  const numbers = document.querySelectorAll('[data-number]');
-  const operations = document.querySelectorAll('[data-operation]');
-  const del = document.querySelector('[data-delete]');
-  const equals = document.querySelector('[data-equals]');
-  const reset = document.querySelector('[data-reset]');
-  const previousOperandElement = document.querySelector('[data-previous-operand]');
-  const currentOperandElement = document.querySelector('[data-current-operand]');
+  const numbers = document.querySelectorAll('[data-number]'),
+    operations = document.querySelectorAll('[data-operation]'),
+    del = document.querySelector('[data-delete]'),
+    equals = document.querySelector('[data-equals]'),
+    reset = document.querySelector('[data-reset]'),
+    previousOperandElement = document.querySelector('[data-previous-operand]'),
+    currentOperandElement = document.querySelector('[data-current-operand]');
 
   const calculator = new Calculator(previousOperandElement, currentOperandElement);
 
