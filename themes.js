@@ -1,13 +1,13 @@
 $(() => {
-  const selector = $('.selector');
-  const main = $('main');
-  const buttons = $('.buttons');
-  const head = $('.head');
-  const output = $('.output');
-  const smallButtons = $('.small-buttons button');
-  const reset = $('#reset');
-  const del = $('#delete');
-  const equals = $('#equals');
+  const selector = $('.selector'),
+   main = $('main'),
+   buttons = $('.buttons'),
+   head = $('.head'),
+   output = $('.output'),
+   smallButtons = $('.small-buttons button'),
+   reset = $('#reset'),
+   del = $('#delete'),
+   equals = $('#equals');
 
   $('[data-one]').on('click', () => {
     selector.css({
