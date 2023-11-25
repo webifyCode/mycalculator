@@ -20,8 +20,8 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
 
 ### Links
 
-- Solution URL: [Github repo](https://github.com/5erious5am/mycalculator)
-- Live Site URL: [Live site](https://5erious5am.github.io/mycalculator)
+- Solution URL: [Github repo](https://github.com/webifyCode/mycalculator)
+- Live Site URL: [Live site](https://webifyCode.github.io/mycalculator)
 
 ## My process
 
@@ -39,7 +39,6 @@ Building this project helped me to come to a better understanding of how javascr
 
 ## Author
 
-- Website - [Samuel Akinode](https://www.webifywebservices.com)
 - Frontend Mentor - [@5erious5am](https://www.frontendmentor.ioa/profile/5erious5am)
-- Github - [@yourusername](https://www.github.com/5erious5am)
+- Github - [@webifyCode](https://www.github.com/webifyCode)
 
